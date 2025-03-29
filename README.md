@@ -9,11 +9,11 @@ docker run --name gps-emulator -p 4001:4000 iperekrestov/university:gps-emulatio
 wscat -c ws://localhost:4001
 
 Застосунок підключається до WebSocket сервера і зчитує дані про положення супутників і об'єкта, відображає дані та положення супутників і об'єкта на графіку за допомогою бібліотеки Plotly.  
-![GPS](Screenshots/1.png)  
-![Код](Screenshots/2.png)  
-![Код](Screenshots/3.png)  
-![Код](Screenshots/4.png)  
+![GPS](1.png)  
+![Код](2.png)  
+![Код](3.png)  
+![Код](4.png)  
 
 У застосунку можна змінювати параметри вимірювальної частини GPS.  
-![Update](/6.png)  
+![Update](6.png)  
 ![Код](5.png)  
